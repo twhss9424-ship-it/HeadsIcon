@@ -1,0 +1,19 @@
+name: HeadIcons
+version: '${version}'
+main: dev.headicons.HeadIcons
+api-version: '26.3'
+description: Player head icons in the tablist and in chat (tablist + chat heads in one plugin)
+commands:
+  headicons:
+    description: Reload HeadIcons
+    usage: /headicons reload
+    permission: headicons.admin
+permissions:
+  headicons.admin:
+    default: op
+  headicons.chat:
+    description: Show a head icon next to this player's chat messages
+    default: true
+  headicons.tablist:
+    description: Show a head icon next to this player's tablist name
+    default: true

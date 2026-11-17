@@ -1,0 +1,19 @@
+# HeadIcons config
+
+# Render the 2nd (hat) layer of the skin on the head
+hat-layer: true
+
+tablist:
+  enabled: true
+  # Text between the head and the name
+  separator: " "
+  # true  = use the player's display name (other plugins' nicknames/prefixes)
+  # false = use the plain username
+  use-display-name: false
+
+chat:
+  enabled: true
+  separator: " "
+
+# Re-read skins & refresh tablist every N seconds (picks up skin changes). 0 = off
+refresh-seconds: 60
